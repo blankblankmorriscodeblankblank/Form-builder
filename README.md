@@ -10,3 +10,4 @@ The component is built using standard JSX.
 • Upon submission, it simulates a save operation (showing a loading state), displays a success message, and then uses reset() to clear all fields automatically.
 
 *Special thanks to Replit for the build*
+![image](https://github.com/user-attachments/assets/3eaabe10-3ed7-4176-9572-1920b38f4b11)
