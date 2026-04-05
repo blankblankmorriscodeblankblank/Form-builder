@@ -210,7 +210,7 @@ export default function SupabaseForm() {
               {...register("repositoryUrl", {
                 required: "Repository URL is required",
                 pattern: {
-                  value: /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/,
+                  value: /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})(/^_(__|[^_])+_$/)*\/?$/,
                   message: "Must be a valid URL",
                 },
               })}
